@@ -10,4 +10,9 @@ public class Piece {
         this.board = board;
         Position = null;
     }
+
+    protected Board getBoard() {
+        return board;
+    }
+
 }
